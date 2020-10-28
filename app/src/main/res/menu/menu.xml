@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="refresh"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="edit"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_setting"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="setting"
+        app:showAsAction="always" />
+</menu>
